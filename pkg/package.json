@@ -1,0 +1,19 @@
+{
+  "name": "chess-fast-af",
+  "collaborators": [
+    "Arnav <its.arnav.sh@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "chess_fast_af_bg.wasm",
+    "chess_fast_af.js",
+    "chess_fast_af_bg.js",
+    "chess_fast_af.d.ts"
+  ],
+  "module": "chess_fast_af.js",
+  "types": "chess_fast_af.d.ts",
+  "sideEffects": [
+    "./chess_fast_af.js",
+    "./snippets/*"
+  ]
+}
